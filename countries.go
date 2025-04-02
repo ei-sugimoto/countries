@@ -5537,7 +5537,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return BGR
 	case "BO", "BOL", "BOLIVIA", "BOLIVIYA", "BOLIVIAN", "BOLIVIAPLURINATIONALSTATEOF", "BOLIVIAPLURINATIONALSTATE", "BOLIVIEN":
 		return BOL
-	case "BA", "BIH", "BOSNIAANDHERZEGOVINA", "BOSNIAHERZEGOVINA", "BOSNIA", "BOSNIEN", "BOSNIENUNDHERZEGOWINA":
+	case "BA", "BIH", "BOSNIAANDHERZEGOVINA", "BOSNIAHERZEGOVINA", "BOSNIA", "BOSNIEN", "BOSNIENUNDHERZEGOWINA", "BOSNIAEDERZEGOVINA":
 		return BIH
 	case "BW", "BWA", "BOTSWANA", "BOTSWANNA", "BOTSVANA", "BOTSVANNA":
 		return BWA
@@ -5641,7 +5641,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return IRL
 	case "IS", "ISL", "ICELAND", "ISLAND":
 		return ISL
-	case "ES", "EA", "IC", "ESP", "SPAIN", "SPANIEN", "ISPANIA":
+	case "ES", "EA", "IC", "ESP", "SPAIN", "SPANIEN", "ISPANIA", "SPANGA":
 		return ESP
 	case "IT", "ITA", "ITALY", "ITALIYA", "ITALIEN":
 		return ITA
@@ -5665,7 +5665,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return CYP
 	case "KI", "KIR", "CT", "CTE", "CTKI", "KIRIBATI", "CIRIBATI", "KIRIBATY", "CIRIBATY":
 		return KIR
-	case "CN", "CHN", "CHINA", "CHINESE", "RC", "KITAY":
+	case "CN", "CHN", "CHINA", "CHINESE", "RC", "KITAY", "CINA":
 		return CHN
 	case "CC", "CCK", "KEELING", "COCOS", "COCOSKEELINGISLANDS", "COCOSISLANDS", "KOKOSISLANDS", "KOKOSINSELN":
 		return CCK
@@ -5919,7 +5919,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return FIN
 	case "FK", "FLK", "FALKLANDISLANDSMALVINAS", "MALVINAS", "FALKLANDISLANDS", "FALKLAND", "FALKLANDINSELN":
 		return FLK
-	case "FR", "CP", "FX", "FRA", "FXX", "CPT", "FXFR", "FRANCE", "FRENCH", "FRANKREICH":
+	case "FR", "CP", "FX", "FRA", "FXX", "CPT", "FXFR", "FRANCE", "FRENCH", "FRANKREICH", "FRANCIA":
 		return FRA
 	case "GF", "GUF", "FRENCHGUIANA", "GUIANA", "FRANZÖSISCHGUYANA", "FRANZOESISCHGUYANA":
 		return GUF
@@ -5985,7 +5985,7 @@ func ByName(name string) CountryCode { //nolint:misspell,gocyclo
 		return MAF
 	case "SS", "SSD", "SOUTHSUDAN", "SOUTHSUDANE", "REPUBLICOFSOUTHSUDAN", "SOUTHSUDANREPUBLICOF", "SOUTHSUDANREPUBLIC", "PAGUOTTHUDÄN", "SÜDSUDAN", "SUEDSUDAN":
 		return SSD
-	case "JP", "JPN", "JAPAN":
+	case "JP", "JPN", "JAPAN", "GIAPPONE":
 		return JPN
 	case "XK", "XKX", "XKS", "KOS", "KOSOVO", "COSOVO", "КОСОВО", "KOSOVËS", "РЕПУБЛИКАКОСОВО", "REPUBLIKAKOSOVO", "REPUBLIKACOSOVO", "REPUBLIKAKOSOVËS", "REPUBLICAKOSOVO", "REPUBLICACOSOVO", "REPUBLICAKOSOVËS", "KOSOVOREPUBLIC", "COSOVOREPUBLIC", "KOSOVËSREPUBLIC":
 		return XKX
